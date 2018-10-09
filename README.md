@@ -2,7 +2,11 @@
 
 ## Description
 
-Use simple bash script to create Maven repository on the GitHub. You can save multiple artifacts on the single repo.
+Use simple bash script to create Maven repository on the GitHub. You can save multiple artifacts in the single repo.
+
+1. Upload your artifacts to the GitHub using this script.
+1. In your main project, add the URL provided by script as remote Maven repository.
+1. Now you can add your dependencies in Maven or Gradle.
 
 ## Usage
 
